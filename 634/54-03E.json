@@ -1,0 +1,92 @@
+{
+    "acquisition_software": "Pychron16.7(Exp0.1,DVC0.1)", 
+    "aliquot": 3, 
+    "analysis_type": "unknown", 
+    "analyst_name": "", 
+    "comment": "testing 2 cdd's unirradiated", 
+    "commit": "16c076c28fac1334dce6ddc6e2c3f28424480072", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 10, 
+            "hash_id": -530729609918142714, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ], 
+    "data_reduction_software": "Pychron16.7(DVC0.1)", 
+    "detectors": {
+        "AX(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "63454", 
+    "increment": 4, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-274", 
+    "irradiation_level": "D", 
+    "irradiation_position": 6, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar36H": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar37H": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX(CDD)"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }, 
+        "Iso37.8624": {
+            "detector": "AX(CDD)"
+        }, 
+        "PHHCbs": {
+            "detector": "H1"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Felix", 
+    "material": "Groundmass Concentrate", 
+    "measurement": "felix_peak_hop_argon_2CDD.py", 
+    "project": "ZeroAge", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "ZeroAge", 
+    "sample": "Bardarbunga-1", 
+    "spec_sha": "0bde97a8dabc79a749f5b3a677e1f5253c187a4e", 
+    "timestamp": "2016-11-28T20:19:06.313982", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "1951174e-ed07-47be-bb13-25fc4697f54b"
+}
